@@ -20,7 +20,7 @@
 </svelte:head>
 
 <!-- <pre>{JSON.stringify(posts, null, 2)}</pre> -->
-<h1 class="text-4xl mb-10 font-extrabold">Welcome to SvelteKit</h1>
+<h1 class="text-4xl mb-10 font-extrabold">Me Blog</h1>
 
 {#each posts as { title, slug, excerpt, coverImage, tags }}
 	<div class="card text-center shadow-2xl mb-20">
