@@ -14,7 +14,6 @@
 
 <script>
 	export let post;
-
 	const {
 		title,
 		date,
@@ -69,6 +68,6 @@
     </div>
 </div>
 
-<article div class="prose">
+<article class="prose">
     {@html html}
 </article>
